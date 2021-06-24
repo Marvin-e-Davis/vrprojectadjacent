@@ -44,12 +44,12 @@ p{
   font-size: 20px;
 }
 
-div.quiz-button{
+div.quiz-button, #link{
   font-size: 25px;
   text-align: center;
 }
 
-a{
+a,  .returnButton{
   display: incline-block;
   border: 1px solid black;
   border-radius: 5px;
@@ -71,4 +71,14 @@ a{
   content: "";
   display: table;
   clear: both;
+}
+
+#player{
+display: block;
+margin: auto;
+width: 50%;
+}
+
+#content{
+  text-align: center;
 }
