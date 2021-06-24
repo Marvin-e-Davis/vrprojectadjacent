@@ -1,17 +1,17 @@
 //data structure to hold video urls
 
-var key = 'FMAB'
+var key = 'Steins Gate'
 
-var urls = new Map([
+var objects = new Map([
   ['Haikyuu', 'XS-N8KfZ5EU'],
-  ['Gurren Lagann', 'FwgMxjhXkKo'],
+  ['Gurren Lagann','FwgMxjhXkKo'],
   ['FMAB', '6KvizlgJu14'],
   ['Death Note','8QE9cmfxx4s'],
   ['HxH', 'faqmNf_fZlE'],
   ['Steins Gate', 'dd7BILZcYAY']
 ]);
 
-var value = urls.get(key);
+var value = objects.get(key);
 
 //youtube api stuff
 
@@ -38,3 +38,8 @@ var player;
       function onPlayerReady(event) {
         event.target.playVideo();
       }
+
+var show = document.createElement("h2");
+show.innerText = key;
+var player = document.querySelector("player");
+player.appendChild(show);
