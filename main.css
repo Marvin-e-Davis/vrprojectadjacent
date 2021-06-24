@@ -1,23 +1,55 @@
 *{
-  background-color:black;
+  /* background-color:black; */
 }
-h1, h3{
+h1.mainh1, h2.mainh2{
   color: white;
   text-align:center;
 }
 
-p {
+.header{
+  padding: 10px;
+  text-align: center;
+  background-color: darkgreen;
   color: white;
-  text-align:center;
-
+  font-size: 20px;
 }
+
+
+.vrmodel-iframe{
+  display: block;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  float: left;
+  height: 400px;
+  width: 700px;
+}
+
+div.buyerinfo{
+  text-align: left;
+  word-wrap: normal;
+  width: 100%;
+}
+
+h3.mainh3{
+  font-size: 35px;
+}
+
+h4.mainh4{
+  font-size: 50px;
+}
+
+p{
+  font-size: 20px;
+}
+
+
 a{
   display: incline-block;
   margin-left: 42%;
 }
 .reviews{
   text-align: center;
-  color: white;
+  /* color: white; */
 }
 
 .col1, .col2, .col3 {
