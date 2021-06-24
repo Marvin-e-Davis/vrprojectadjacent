@@ -44,9 +44,13 @@ p{
   font-size: 20px;
 }
 
-div.quiz-button{
+div.quiz-button, .returnButton{
   font-size: 25px;
   text-align: center;
+}
+.returnButton{
+  display: inline-block;
+  margin-left: 35%;
 }
 
 a{
@@ -71,4 +75,14 @@ a{
   content: "";
   display: table;
   clear: both;
+}
+
+#player{
+display: block;
+margin: auto;
+width: 50%;
+}
+
+#content{
+  text-align: center;
 }
