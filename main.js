@@ -4,7 +4,7 @@ var submit = document.createElement('input');
 submit.setAttribute('type', 'submit');
 form();
 submit.innerHTML = 'submit';
-var form = document.getElementById('anime_quiz')
+var form = document.getElementById("anime_quiz");
 form.appendChild(submit);
 
 
@@ -46,7 +46,7 @@ function form(){
     }
     shows.forEach(logMapElements);
     console.log(maxKey);
-    redirect(maxKey);
+   //redirect(maxKey);
   });
 }
 function tally(entry){
