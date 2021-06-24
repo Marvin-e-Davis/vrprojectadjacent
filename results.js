@@ -1,6 +1,6 @@
 //data structure to hold video urls
 
-var key = 'Gurren Lagann'
+var key = 'Hunter x Hunter'
 
 var objects = new Map([
   ['Haikyuu!!', 'XS-N8KfZ5EU'],
@@ -66,4 +66,7 @@ function onLoad(){
   var desc = document.createElement('p');
   desc.innerText = `${description}`
   content.appendChild(desc);
+  var source = document.createElement('h4');
+  source.innerText = "(Description via MyAnimeList.com)";
+  content.appendChild(source);
 }
