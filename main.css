@@ -44,16 +44,12 @@ p{
   font-size: 20px;
 }
 
-div.quiz-button, .returnButton{
+div.quiz-button, #link{
   font-size: 25px;
   text-align: center;
 }
-.returnButton{
-  display: inline-block;
-  margin-left: 35%;
-}
 
-a{
+a,  .returnButton{
   display: incline-block;
   border: 1px solid black;
   border-radius: 5px;
