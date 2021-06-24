@@ -1,6 +1,5 @@
 //data structure to hold video urls
-
-var key = 'FullMetal Alchemist:Brotherhood';
+var key = 'Steins;Gate'
 var objects = new Map([
   ['Haikyuu!!', 'XS-N8KfZ5EU'],
   ['Gurren Lagann','FwgMxjhXkKo'],
@@ -63,7 +62,7 @@ function onLoad(){
   show.innerText = `${key}`;
   content.appendChild(show);
   var desc = document.createElement('p');
-  desc.innerText = `${description}`
+  desc.innerText = `${description}`;
   content.appendChild(desc);
   var source = document.createElement('p');
   source.innerText = "(Description via MyAnimeList.com)";
