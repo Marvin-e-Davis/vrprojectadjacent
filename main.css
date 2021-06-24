@@ -1,0 +1,32 @@
+*{
+  background-color:black;
+}
+h1, h3{
+  color: white;
+  text-align:center;
+}
+
+p {
+  color: white;
+  text-align:center;
+
+}
+a{
+  display: incline-block;
+  margin-left: 42%;
+}
+.reviews{
+  text-align: center;
+  color: white;
+}
+
+.col1, .col2, .col3 {
+  float: left;
+  width: 33.33%;
+}
+
+.reviews:after {
+  content: "";
+  display: table;
+  clear: both;
+}
