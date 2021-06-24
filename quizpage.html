@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vr Project</title>
+    <title>Immersive Anime Quiz</title>
 </head>
 
 <body>
@@ -13,69 +13,35 @@
 
     <p>This is where the questions will go</p>
 
+    <!--Questions in quiz-->
     <div class="questions">
-        <p>1</p>
-        <label for="q1-yes">Yes
-            <input type="radio" id="q1-yes" name="question1" value="Yes">
-            <span class='custom-button'></span>
-        </label><br>
-
-        <label class='radio-container indent' for="q1-no">No
-            <input type="radio" id="q1-no" name="question1" value="No">
-            <span class='custom-button'></span>
-        </label><br>
-    </div>
-
-    <div class="questions">
-        <p>2</p>
-        <label class='radio-container indent' for="q1-yes">Yes
-            <input type="radio" id="q1-yes" name="question1" value="Yes">
-            <span class='custom-button'></span>
-        </label><br>
-
-        <label class='radio-container indent' for="q1-no">No
-            <input type="radio" id="q1-no" name="question1" value="No">
-            <span class='custom-button'></span>
-        </label><br>
-    </div>
-
-    <div class="questions">
-        <p>3</p>
-        <label class='radio-container indent' for="q1-yes">Yes
-            <input type="radio" id="q1-yes" name="question1" value="Yes">
-            <span class='custom-button'></span>
-        </label><br>
-
-        <label class='radio-container indent' for="q1-no">No
-            <input type="radio" id="q1-no" name="question1" value="No">
-            <span class='custom-button'></span>
-        </label><br>
-    </div>
-
-    <div class="questions">
-        <p>4</p>
-        <label class='radio-container indent' for="q1-yes">Yes
-            <input type="radio" id="q1-yes" name="question1" value="Yes">
-            <span class='custom-button'></span>
-        </label><br>
-
-        <label class='radio-container indent' for="q1-no">No
-            <input type="radio" id="q1-no" name="question1" value="No">
-            <span class='custom-button'></span>
-        </label><br>
-    </div>
-
-    <div class="questions">
-        <p>5</p>
-        <label class='radio-container indent' for="q1-yes">Yes
-            <input type="radio" id="q1-yes" name="question1" value="Yes">
-            <span class='custom-button'></span>
-        </label><br>
-
-        <label class='radio-container indent' for="q1-no">No
-            <input type="radio" id="q1-no" name="question1" value="No">
-            <span class='custom-button'></span>
-        </label><br>
+        <form id="anime_quiz">
+            <!--Question 1-->
+            <p>What genre do you like most?</p>
+            <input type="radio" id="action" name="q1" value="Action">
+            <label for="action">Action</label><br>
+            <input type="radio" id="sci-fi" name="q1" value="Sci-fi">
+            <label for="sci-fi">Sci-fi</label><br>
+            <input type="radio" id="sports" name="q1" value="Sports">
+            <label for="sports">Sports</label><br>
+            <input type="radio" id="mystery" name="q1" value="Mystery">
+            <label for="mystery">Mystery</label><br>
+            <input type="radio" id="comedy" name="q1" value="Comedy">
+            <label for="comedy">Comedy</label>
+            <!--Question 2-->
+            <p>How long of a show do you like watching?</p>
+            <input type="radio" id="short" name="q2" value="short">
+            <label for="short">Around 24 episodes</label><br>
+            <input type="radio" id="medium" name="q2" value="medium">
+            <label for="medium">Around 32 episodes</label><br>
+            <input type="radio" id="long" name="q2" value="long">
+            <label for="long">50 episodes or more</label>
+            <!--Question 3-->
+            <p>How long of a show do you like watching?</p>
+            <input type="radio" id="char_a" name="q2" value="a">
+            <label for="char_a">Goofy, adorable, pure</label><br>
+            
+        </form>
     </div>
 
 </body>
