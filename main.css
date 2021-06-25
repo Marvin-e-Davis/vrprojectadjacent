@@ -14,7 +14,7 @@ h1.mainh1, h2.mainh2{
 .header{
   padding: 7px;
   text-align: center;
-  background-color: darkgreen;
+  background-color: #274E13;
   font-size: 20px;
 }
 
@@ -57,13 +57,13 @@ a,  .returnButton{
   display: incline-block;
   border: 1px solid black;
   border-radius: 5px;
-  background-color: darkgreen;
+  background-color: #274E13;
   color: white;
 
 }
 .reviews{
   text-align: center;
-  /* color: white; */
+  font-size: 18px;
 }
 
 .col1, .col2, .col3 {
