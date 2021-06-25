@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+.header{
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    background-color:rgba(6, 173, 173, 0.753);
+    margin: 0;
+    padding: 2%;
+}
+
+.questions{
+    margin: 4% 2%;
+}

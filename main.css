@@ -1,16 +1,14 @@
-*{
-  /* background-color:black; */
-}
 h1.mainh1, h2.mainh2{
-  color: white;
+  /*color: white;*/
   text-align:center;
 }
 
 .header{
   padding: 10px;
   text-align: center;
-  background-color: darkgreen;
-  color: white;
+  background-color: rgba(6, 173, 173, 0.753);
+  /*background-color: darkgreen;
+  color: white;*/
   font-size: 20px;
 }
 
@@ -53,7 +51,8 @@ a,  .returnButton{
   display: incline-block;
   border: 1px solid black;
   border-radius: 5px;
-  background-color: darkgreen;
+  background-color: rgba(6, 173, 173, 0.753);
+  /*background-color: darkgreen;*/
   color: white;
 
 }

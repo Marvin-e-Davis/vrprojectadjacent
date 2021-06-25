@@ -7,7 +7,6 @@ submit.innerHTML = 'submit';
 var form = document.getElementById("anime_quiz");
 form.appendChild(submit);
 
-
 var entries = [];
 var formData = null;
 

@@ -7,16 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Immersive Anime Quiz</title>
     <script src="main.js"></script>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+
 </head>
 
 <body onload="onLoad()">
-    <h1>Quiz page</h1>
+    <h1 class="header">Find the perfect source of entertainment for you!</h1>
 
     <!--Questions in quiz-->
     <div class="questions">
         <form id="anime_quiz">
             <!--Question 1-->
-            <p>What genre do you like most?</p>
+            <p>1. What genre do you like most?</p>
             <input type="radio" id="action" name="q1" value="FullMetal Alchemist:Brotherhood">
             <label for="action">Action</label><br>
             <input type="radio" id="sci-fi" name="q1" value="Gurren Lagann">
@@ -108,7 +113,7 @@
             <input type="radio" id="fun" name="q8" value="f">
             <label for="fun">Fun</label><br>
             <input type="radio" id="dark" name="q8" value="g">
-            <label for="dark">Dark</label>
+            <label for="dark">Dark</label><br><br><br>
         </form>
     </div>
 
