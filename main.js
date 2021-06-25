@@ -46,7 +46,7 @@ function form(){
     }
     shows.forEach(logMapElements);
     console.log(maxKey);
-   //redirect(maxKey);
+    redirect(maxKey);
   });
 }
 function tally(entry){
@@ -66,7 +66,11 @@ function logMapElements(value, key) {
 }
 
   function redirect(key){
-    window.location.href = "results.html";
+   if(key === 'FullMetal Alchemist:Brotherhood'){
+     key = 'FMAB';
+   }
+   console.log(key);
+   window.location.href = `${key}.html`;
 }
 
 
